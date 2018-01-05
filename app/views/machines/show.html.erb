@@ -5,3 +5,7 @@
   <%= snack.name %>:<%= number_to_currency(snack.price/100.0) %>
   </p>
 <% end %>
+
+<p>
+  Average price: <%= number_to_currency(@average_price/100.0) %>
+</p>
